@@ -15,6 +15,7 @@ bot.on('ready', () => {
 
 bot.on('ready', function () {
     bot.user.setActivity('!v help')
+    bot.user.setStatus('dnd')
 })
 
 //recherche de commande
